@@ -17,7 +17,11 @@ const NavBar = () => {
       <Navbar dark color="dark" className="bg-primary p-0 m-0" expand="md">
         <div className="container">
           <NavbarBrand href="/" className="p-0 ml-2">
-            <img src="/src/img/logo/target.png" alt="archery target" />
+            <img
+              src="/src/img/logo/target.png"
+              alt="archery target"
+              className="m-1"
+            />
             <p className="navbrand-title">Archery</p>
           </NavbarBrand>
           <NavbarToggler
