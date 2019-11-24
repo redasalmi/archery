@@ -1,13 +1,62 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@font-face {
+  font-family: Hamellista;
+  src: url("/src/font/Hamellista.ttf");
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+.navbrand-title {
+  font-family: Hamellista;
+  font-size: 30px;
+  display: inline;
+}
+
+.nav-link {
+  font-size: 24px;
+  margin-left: 15px;
+}
+
+.nav-link:hover {
+  color: white !important;
+  text-decoration: underline !important;
+}
+
+.nav-link-active {
+  color: white !important;
+}
+
+.indoor,
+.para_pic {
+  max-height: 250px;
+}
+
+.page-enter {
+  opacity: 0;
+  transform: scale(1.1);
+}
+
+.page-enter-active {
+  opacity: 1;
+  transform: scale(1);
+  transition: opacity 500ms, transform 500ms;
+}
+
+.page-exit {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.page-exit-active {
+  opacity: 0;
+  transform: scale(0.9);
+  transition: opacity 500ms, transform 500ms;
+}
+
+a:hover,
+.article-title:hover {
+  text-decoration: none !important;
+}
+
+.article-img {
+  width: 100%;
+  max-width: 350px;
+  height: 200px;
 }
