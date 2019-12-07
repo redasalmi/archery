@@ -1,6 +1,6 @@
 # ARCHERY
 
-A website About Archery with definitions, articles and videos to know more about Archery. found at: [https://archerie.netlify.com/](https://archerie.netlify.com/)
+A website About Archery with definitions, articles and videos to know more about Archery. found at: [https://archerie.netlify.com/](https://archerie.netlify.com/).
 
 ## Built With
 
@@ -8,6 +8,8 @@ A website About Archery with definitions, articles and videos to know more about
 - react-router-dom
 - react-transition-group
 - Bootstrap
+- axios
+- Archery API to fetch data, found at: https://archery-api.now.sh/
 
 ## Cloning & Installation
 
